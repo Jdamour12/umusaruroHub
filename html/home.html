@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>umusaruroHub</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/aea72ee1ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>Flow us on </p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="login-button">
+                <button>Login</button>
+            </div>
+            </div>
+        </div>
+
+
+            <div class="navbar-links">
+                <div class="logo">
+                    <h1>umusaruroHub</h1>
+                </div>
+                <div class="nav-items">
+                    <a href="/html/home.html">Home</a>
+                    <a href="/html/market.html">Market</a>
+                    <a href="/html/about.html">About Us</a>
+                    <a href="/html/blogs.html">Our Blog</a>
+                </div>
+            </div>
+
+
+            <div class="selection">
+                <div class="select-item">
+                    <select name="" id="" onchange="location=this.value;">
+                        <option value="">All Categories</option>
+                        <option value="/html/products.html">Rice</option>
+                        <option value="/html/products.html">Maize</option>
+                        <option value="/html/products.html">Sorghum</option>
+                        <option value="/html/products.html">Wheat</option>
+                    </select>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for products">
+                    <select name="" id="">
+                        <option value="">All Categories</option>
+                        <option value="">Rice</option>
+                        <option value="">Maize</option>
+                        <option value="">Sorghum</option>
+                        <option value="">Wheat</option>
+                    </select>
+                    <button onclick="/html/products.html"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="current-day">
+                <p><script>
+                    const currentDate = new Date();
+
+                    const year = currentDate.getFullYear(); // Get the year (e.g., 2024)
+                    const month = currentDate.getMonth() + 1; // Get the month (0-11, so add 1 for 1-12)
+                    const date = currentDate.getDate();
+                    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                    const dayName = days[currentDate.getDay()];
+                    // Get the day of the month (1-31)
+                    
+                    document.write(` ${dayName}, ${date}/${month}/${year}`); 
+
+                </script></p>
+            </div>
+    </header>
+
+    <div class="image">
+        <img src="/img/smart-farm.jpg" alt="smart-plantation">
+        <div class="image-text">
+            <h2>Discover the future of agriculture</h2>
+            <p>umusaruroHub is a cutting-edge platform that connects farmers, warehouse holders, and consumers worldwide. By offering a wide range of products and services, we aim to create a more sustainable and equitable future for all.</p>
+        </div>
+    </div>
+    <div class="trendings">
+        <p>Trending products</p>
+    </div>
+    <div class="trending-products">
+        <div class="item"><img src="/img/img1.jpg" alt="">
+            <p>Available <a href="#">Read More</a></p>
+        </div>
+        <div class="item"><img src="/img/img2.jpeg" alt="">
+            <p>Available <a href="#">Read More</a></p>
+        </div>
+        <div class="item"><img src="/img/img2.jpg" alt="">
+            <p>Available <a href="#">Read More</a></p>
+        </div>
+        <div class="item"><img src="/img/img3.jpeg" alt="">
+            <p>Available <a href="#">Read More</a></p>
+        </div>
+    </div>    
+    <div id="explore-more"><p><a href="#">Explore More Available Products</a></p></div>
+
+
+    <div class="training-container">
+        <!-- Image Section -->
+        <div class="training-image">
+            <img src="/img/training.jpg" alt="Farmers' Market">
+        </div>
+    
+        <!-- Text Content Section -->
+        <div class="content">
+            <h1>Explore Our Training Programs</h1>
+            <p>
+            Empowering Farmers, One Program at a Time. At <b>umusaruroHub</b>, we believe in the transformative power of knowledge and the potential it holds for farmers. 
+            We also have a mission to empower farmers with the skills and insights needed to maximize their agricultural production and thrive in the ever-evolving world of agribusiness.
+            </p>
+            <a href="#" class="btn">Learn more →</a>
+        </div>
+    </div>
+    <section class="recent-blogs">
+        <h2>Recent Blogs</h2>
+        <a href="#" class="view-all">View All Articles</a>
+        <div class="blog-cards">
+            <div class="blog-card">
+                <img src="/img/smart-farming.jpg" alt="Popular Types of Farm and Agriculture Apps Transforming Modern Farming">
+                <div class="blog-content">
+                    <p class="category">Available</p>
+                    <h3>Popular Types of Farm and Agriculture Apps Transforming Modern Farming</h3>
+                    <p class="date">December 4, 2024</p>
+                </div>
+            </div>
+        <div class="blog-card">
+            <img src="/img/pinappple.jpg" alt="Pineapple Farming">
+            <div class="blog-content">
+                <p class="category">Researching</p>
+                <h3>Pineapple Farming in Kenya: A Comprehensive Guide</h3>
+                <p class="date">December 4, 2024</p>
+            </div>
+        </div>
+        <div class="blog-card">
+            <img src="/img/irrig.jpeg" alt="Save Water on the Farm">
+            <div class="blog-content">
+                <p class="category"> Advanced Farming</p>
+                <h3>10 Effective Ways to Save Water on the Farm</h3>
+                <p class="date">December 3, 2024</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 umusaruroHub. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+</body>
+</html>

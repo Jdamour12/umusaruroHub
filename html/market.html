@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>umusaruroHub</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/aea72ee1ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <p>Flow us on </p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="login-button">
+                <button>Login</button>
+            </div>
+            </div>
+        </div>
+
+
+            <div class="navbar-links">
+                <div class="logo">
+                    <h1>umusaruroHub</h1>
+                </div>
+                <div class="nav-items">
+                    <a href="/html/home.html">Home</a>
+                    <a href="/html/market.html">Market</a>
+                    <a href="/html/about.html">About Us</a>
+                    <a href="/html/blogs.html">Our Blog</a>
+                </div>
+            </div>
+
+
+            <div class="selection">
+                <div class="select-item">
+                    <select name="" id="" onchange="location=this.value;">
+                        <option value="">All Categories</option>
+                        <option value="/html/products.html">Rice</option>
+                        <option value="/html/products.html">Maize</option>
+                        <option value="/html/products.html">Sorghum</option>
+                        <option value="/html/products.html">Wheat</option>
+                    </select>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for products">
+                    <select name="" id="">
+                        <option value="">All Categories</option>
+                        <option value="">Rice</option>
+                        <option value="">Maize</option>
+                        <option value="">Sorghum</option>
+                        <option value="">Wheat</option>
+                    </select>
+                    <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="current-day">
+                <p><script>
+                    const currentDate = new Date();
+
+                const year = currentDate.getFullYear(); // Get the year (e.g., 2024)
+                const month = currentDate.getMonth() + 1; // Get the month (0-11, so add 1 for 1-12)
+                const date = currentDate.getDate();
+                const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                const dayName = days[currentDate.getDay()];
+                // Get the day of the month (1-31)
+                
+                document.write(` ${dayName}, ${date}/${month}/${year}`); 
+
+                </script></p>
+            </div>
+    </header>
+
+    <div class="market-search-bar">
+        <input type="text" placeholder="Search for products">
+        <select name="" id="">
+            <option value="">All Categories</option>
+            <option value="">Rice</option>
+            <option value="">Maize</option>
+            <option value="">Sorghum</option>
+            <option value="">Wheat</option>
+        </select>
+        <button><i class="fas fa-search"></i></button>
+</div>
+<div class="find-product">
+    <h2>Find Products</h2>
+    <div class="product">All Product</div>
+</div>
+<div class="trending-products">
+    <div class="item"><img src="/img/img1.jpg" alt="">
+        <p>Available <a href="#">Read More</a></p>
+    </div>
+    <div class="item"><img src="/img/img2.jpeg" alt="">
+        <p>Available <a href="#">Read More</a></p>
+    </div>
+    <div class="item"><img src="/img/img2.jpg" alt="">
+        <p>Available <a href="#">Read More</a></p>
+    </div>
+    <div class="item"><img src="/img/img3.jpeg" alt="">
+        <p>Available <a href="#">Read More</a></p>
+    </div>
+</div>
+
+    <footer>
+        <p>&copy; 2024 umusaruroHub. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+</body>
+</html>
